@@ -36,3 +36,11 @@ footer{
 footer span{
     font-family: 'Barlow', sans-serif;
 }
+
+
+/* CLASSS */
+.block{
+    display: block;
+    margin: .4rem 0;
+    background-color: #000000;
+}
