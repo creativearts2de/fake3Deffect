@@ -42,12 +42,21 @@ p{
 /* CLASSES */
 .latxt{
     position: relative;
-    display: inline-block;
     font: 1.1em 'Think_action', sans-serif;
-    cursor: pointer; z-index: 12;
     font-weight: bold;
+}
 
-    /* mix-blend-mode: soft-light; */
+.effect{
+    font: 1em 'Think_action', sans-serif;
+    
+    /* displace it */
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    display: inline-block;
+    z-index: 2;
+    cursor: pointer;
+
+    opacity: 0;
 }
 
 .barbottom{

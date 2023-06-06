@@ -2,24 +2,24 @@ $(document).ready(function(){
 
     let displayLA = true
     
-    $('.latxt').mouseenter(() => {
+    $('.effect').mouseenter(() => {
 
         if(displayLA){
 
             $('.la-img').fadeIn(50)
-            $('.la-img').fadeOut(1000)
+            $('.la-img').fadeOut(100)
 
             displayLA = false
 
         }
     })
 
-    $('.latxt').click(() => {
+    $('.effect').click(() => {
 
         if(displayLA){
 
             $('.la-img').fadeIn(50)
-            $('.la-img').fadeOut(1000)
+            $('.la-img').fadeOut(100)
 
             // displayLA = false
 
