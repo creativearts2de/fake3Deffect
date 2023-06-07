@@ -14,7 +14,7 @@
 
 body{
     margin: 0; padding: 0; 
-    background: black url("../assets/mainbg.gif") repeat fixed center right/50vw;
+    background: black url("/resources/pageAssets/mainbg.gif") repeat fixed center right/50vw;
     /* font-weight: 500; */
 }
 
@@ -42,6 +42,7 @@ p{
 /* CLASSES */
 .latxt{
     position: relative;
+    white-space: nowrap;
     font: 1.1em 'Think_action', sans-serif;
     font-weight: bold;
 }
